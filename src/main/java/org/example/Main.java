@@ -22,6 +22,7 @@ public static void startCarShop(){
             shopOpen = true;
             rentalcar.rentCar();
         } else if (shopStatus.equalsIgnoreCase("close")) {
+            System.out.println("\n--Shop Closed--");
             shopOpen = false;
         }
         else {
