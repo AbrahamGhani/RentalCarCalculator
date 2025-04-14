@@ -4,14 +4,19 @@ import java.util.*;
 public class Main {
 static Scanner scanner = new Scanner(System.in);
 static RentalCar rentalcar = new RentalCar();
+
+
+
+
+
 public static void main(String[] args) {
 
 startCarShop();
 
-
-
-
     }
+
+
+
 
 public static void startCarShop(){
     boolean shopOpen = true;
