@@ -25,7 +25,7 @@ public void getRentCarVals(){
 }
 
 public void options(){
-    System.out.println("What options would you like?\n 0 = All options\n 1 = GPS and Roadside\n 2 = Roadside and Toll Tag\n 3 = Toll Tag and GPS\n 4 = GPS\n 5 = Toll Tag\n 6 = Roadside\n 7 = No options");
+    System.out.println("\n=========================\nWhat options would you like?\n 0 = All options\n 1 = GPS and Roadside\n 2 = Roadside and Toll Tag\n 3 = Toll Tag and GPS\n 4 = GPS\n 5 = Toll Tag\n 6 = Roadside\n 7 = No options");
     optionStatus = scanner.nextInt();
     scanner.nextLine();
     switch (optionStatus){
@@ -76,6 +76,7 @@ public void rentCar(){
         rentalPrice *= numDaysRented;
         System.out.println("Your total is: $" + String.format("%.2f", rentalPrice) + "\n");
     }
+    System.out.println("Please make sure to return the car in " + numDaysRented + " days or you will be charged an additional fee.\n");
 }
 
 
